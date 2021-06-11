@@ -113,7 +113,7 @@ export function ToDo() {
   };
 
   useEffect(() => {
-    let listFromLocalStorage = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY) as string).map((item: any) => {
+    let listFromLocalStorage = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY) as string)?.map((item: any) => {
       if (item.deadline) {
         item.deadline = new Date(item.deadline);
       }
