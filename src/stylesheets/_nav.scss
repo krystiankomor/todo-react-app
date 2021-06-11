@@ -14,12 +14,12 @@ nav {
         text-decoration: none;
         display: block;
         padding: 1rem 2rem;
-        color: #78928a;
+        color: $link-color;
         font-weight: bold;
 
         &:hover,
         &:active {
-          color: #20727f;
+          color: $dark;
         }
       }
 
