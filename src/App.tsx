@@ -17,7 +17,7 @@ function App() {
                   <Link to='/'>Project info</Link>
                 </li>
                 <li>
-                  <Link to='/to-do'>TODO app</Link>
+                  <Link to='/to-do'>TO-DO app</Link>
                 </li>
               </ul>
             </nav>

@@ -157,7 +157,7 @@ export function ToDo() {
 
       <Modal show={showDeleteModal} onHide={closeDeleteModal}>
         <Modal.Header closeButton>
-          <Modal.Title>Delete TODO item</Modal.Title>
+          <Modal.Title>Delete TO-DO item</Modal.Title>
         </Modal.Header>
         <Modal.Body>Are you sure to delete that item?</Modal.Body>
         <Modal.Footer>
@@ -173,7 +173,7 @@ export function ToDo() {
       <Modal show={showAddModal} onHide={closeModal}>
         <Form>
           <Modal.Header closeButton>
-            <Modal.Title>Add TODO item</Modal.Title>
+            <Modal.Title>Add TO-DO item</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <Form.Group className='mb-3' controlId='itemName'>
